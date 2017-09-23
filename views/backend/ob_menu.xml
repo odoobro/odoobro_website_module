@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <menuitem id="odoobro_website_module.ob_roof_menu" name="OdooBro" sequence="10" />
+        <menuitem id="odoobro_website_module.msuite_menu" name="Customer Question" sequence="1"
+            parent="odoobro_website_module.ob_roof_menu" action="act_ob_customer_question" />
+    </data>
+</odoo>

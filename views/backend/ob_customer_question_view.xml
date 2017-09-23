@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<odoo>
+    <record model="ir.ui.view" id="ob_customer_question_form">
+        <field name="name">ob.customer.question.form</field>
+        <field name="model">ob.customer.question</field>
+        <field name="arch" type="xml">
+            <form string="Customer Question">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                        <field name="email" />
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <record model="ir.ui.view" id= "ms_app_tree_view">
+        <field name="name">ob.customer.question.tree.view</field>
+        <field name="model">ob.customer.question</field>
+        <field name="arch" type="xml">
+            <tree string="Customer Question">
+                <field name="name" />
+                <field name="email" />
+                <field name="description"/>
+            </tree>
+        </field>
+    </record>
+    
+    <record model="ir.actions.act_window" id="act_ob_customer_question">
+        <field name="name">Customer Question</field>
+        <field name="res_model">ob.customer.question</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

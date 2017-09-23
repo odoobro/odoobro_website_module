@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="odoobro_website_module.logo" inherit_id="website.layout_logo_show"
+        customize_show="True">
+        <xpath expr="//a[@class='navbar-brand logo']" position="replace">
+            <a href="/" class="navbar-brand logo">
+                <img src="/odoobro_website_module/static/src/img/odoobro_logo.png" />
+            </a>
+        </xpath>
+    </template>
+
+    <template id="odoobro_website_module.footer_custom" inherit_id="website.layout" name="Footer">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer-container wow fadeInUp">
+                <!-- <div class="social-footer">
+                    <div class="container">
+                        <div class="social col-sm-3">
+                            <img src="/odoobro_website_module/static/src/img/spread-social.png"
+                                alt="" class="img-responsive hidden-xs" />
+                            <img src="/odoobro_website_module/static/src/img/spread-social-sm.png"
+                                alt="" class="img-responsive hidden" />
+                        </div>
+                        <div class="social col-sm-2">
+                            <a
+                                href="#"
+                                class="fa-icon" target="_blank">
+                                <img src="/odoobro_website_module/static/src/img/fa-icon.png"
+                                    alt="" />
+                                <span>Facebook</span>
+                            </a>
+                        </div>
+                        <div class="social col-sm-2">
+                            <a
+                                href="#"
+                                class="tw-icon" target="_blank">
+                                <img src="/odoobro_website_module/static/src/img/tw-icon.png"
+                                    alt="" />
+                                <span>Twitter</span>
+                            </a>
+                        </div>
+                        <div class="social col-sm-2">
+                            <a
+                                href="#"
+                                class="ins-icon" target="_blank">
+                                <img src="/odoobro_website_module/static/src/img/ins-icon.png"
+                                    alt="" />
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                        <div class="social col-sm-2">
+                            <a
+                                href="#"
+                                class="g-plus-icon" target="_blank">
+                                <img src="/odoobro_website_module/static/src/img/g-plus-icon.png"
+                                    alt="" />
+                                <span>Google +</span>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="contact-footer">
+                    <div class="container">
+                        <div class="contact-list col-sm-2 col-xs-6">
+                            <h5>About</h5>
+                            <a href="https://www.malifaxsolutions.com">Odoobro</a>
+                            <a href="#">Blog</a>
+                        </div>
+                        <div class="contact-list col-sm-2 col-xs-6">
+                            <h5>Get In Touch</h5>
+                            <a href="#contact">Contact Us</a>
+                        </div>
+                        <div class="contact-list col-sm-2 col-xs-6">
+                            <h5>Support</h5>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="footer-bottom">
+                    <div class="container">
+                        <span class="copyright">© Odoobro 2017. All rights reserved.
+                        </span>
+                        <ul class="social-footer-right pull-right">
+                            <li>
+                                <a href="#"
+                                    target="_blank" data-toggle="tooltip">
+                                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    target="_blank" data-toggle="tooltip">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    target="_blank" data-toggle="tooltip">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    target="_blank" data-toggle="tooltip">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <template id="website.layout_footer_copyright" inherit_id="website.layout"
+        name="Footer Copyright">
+        <xpath expr="//footer" position="inside">
+        </xpath>
+    </template>
+
+</odoo>
