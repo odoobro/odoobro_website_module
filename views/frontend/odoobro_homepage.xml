@@ -34,32 +34,6 @@
                             </div>
                             <div
                                 class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
-                                data-wow-delay="0.6s">
-                                <i class="icon-cloud medium-icon"></i>
-                                <h3>SMS MARKETING</h3>
-                                <hr />
-                                    <p>Some description</p>
-                            </div>
-                            <div
-                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
-                                data-wow-delay="0.9s">
-                                <i class="icon-mobile medium-icon"></i>
-                                <h3>POS</h3>
-                                <hr />
-                                    <p>
-                                        Some description
-                                    </p>
-                            </div>
-                            <div
-                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
-                                data-wow-delay="1s">
-                                <i class="icon-laptop medium-icon"></i>
-                                <h3>ECOMMERCE</h3>
-                                <hr />
-                                    <p>Some description</p>
-                            </div>
-                            <div
-                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
                                 data-wow-delay="1s">
                                 <i class="icon-compass medium-icon"></i>
                                 <h3>Organization Chart</h3>
@@ -84,6 +58,33 @@
                                 <hr />
                                     <p>Some description</p>
                             </div>
+                            <div
+                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
+                                data-wow-delay="0.6s">
+                                <i class="icon-cloud medium-icon"></i>
+                                <h3>SMS MARKETING</h3>
+                                <hr />
+                                    <p>Some description</p>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
+                                data-wow-delay="0.9s">
+                                <i class="icon-mobile medium-icon"></i>
+                                <h3>POS</h3>
+                                <hr />
+                                    <p>
+                                        Some description
+                                    </p>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
+                                data-wow-delay="1s">
+                                <i class="icon-laptop medium-icon"></i>
+                                <h3>ECOMMERCE</h3>
+                                <hr />
+                                    <p>Some description</p>
+                            </div>
+                            
                         </div>
                     </div>
                 </section>
@@ -278,7 +279,7 @@
                 </section>
 
                 <!-- portfolio section -->
-                <div id="portfolio">
+                <section id="portfolio">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
@@ -389,7 +390,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <!-- contact section -->
                 <section id="contact">
