@@ -21,6 +21,7 @@
 from odoo import http
 from odoo.addons.website.controllers.main import Website
 from odoo.http import request
+from psycopg2 import IntegrityError
 import json
 
 
@@ -28,7 +29,14 @@ class OdoobroController(Website):
 
     @http.route('/', type='http', auth="public", website=True)
     def index(self, **kw):
-        return http.request.render('odoobro_website_module.homepage', {})
+        our_module = request.env.ref("odoobro_website_module.our_modules")
+        if not our_module:
+            condition = [('blog_id.name', '=', 'Our Modules')]
+        else:
+            condition = [('blog_id', '=', our_module.id)]
+        modules = request.env['blog.post'].search(condition, limit=6)
+        return http.request.render('odoobro_website_module.homepage',
+                                   {'modules': modules})
 
     @http.route('/customer_question/<string:model_name>', type='http',
                 auth="public", methods=['POST'], website=True)

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="our_modules" model="blog.blog">
+        <field name="name">Our Modules</field>
+    </record>
+</odoo>

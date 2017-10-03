@@ -837,3 +837,17 @@ media quires for mobile
     font-size: 12px;
   }
 }
+.icon-img {
+	    font-size: 32px !important;
+    font-family: 'et-line';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    max-width: 50px;
+    max-height: 50px;
+}
