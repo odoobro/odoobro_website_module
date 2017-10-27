@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <template id="odoobro_website_module_assets_backend" name="cloud_assets"
+    <!-- <template id="odoobro_website_module_assets_backend" name="cloud_assets"
         inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
             <link rel="icon" type="image/png"
@@ -15,7 +15,7 @@
                 type="image/x-icon" />
         </xpath>
     </template>
-
+-->
     <template id="odoobro_website_module.logo" inherit_id="website.layout_logo_show"
         customize_show="True">
         <xpath expr="//a[@class='navbar-brand logo']" position="replace">

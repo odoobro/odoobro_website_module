@@ -18,5 +18,17 @@
 #
 ##############################################################################
 
-import ob_customer_question
-import blog_post
+from odoo import models, fields
+
+
+class BlogPost(models.Model):
+
+    _inherit = "blog.post"
+
+    description_website = fields.Text(string="Description",
+                                      help="Description show on website")
+    link_odoo_app = fields.Char(string="Link",
+                                help="Link on Odoo app")
+    icon = fields.Binary(string="Icon",
+                         help="Icon show on website",
+                         attachment=True)
