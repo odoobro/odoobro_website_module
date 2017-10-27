@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <template id="odoobro_website_module.logo" inherit_id="website.layout_logo_show"
-        customize_show="True">
-        <xpath expr="//a[@class='navbar-brand logo']" position="replace">
-            <a href="/" class="navbar-brand logo">
-                <img src="/odoobro_website_module/static/src/img/odoobro_logo.png" />
-            </a>
-        </xpath>
-    </template>
-
     <template id="odoobro_website_module.footer_custom" inherit_id="website.layout" name="Footer">
         <xpath expr="//div[@id='footer']" position="replace">
             <div id="footer-container wow fadeInUp">

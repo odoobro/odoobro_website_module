@@ -34,7 +34,7 @@ class OdoobroController(Website):
                 auth="public", methods=['POST'], website=True)
     def customer_question(self, model_name, **kwargs):
         model_record = request.env['ir.model'].search(
-                            [('model', '=', model_name)])
+            [('model', '=', model_name)])
         if not model_record:
             return json.dumps(False)
         try:

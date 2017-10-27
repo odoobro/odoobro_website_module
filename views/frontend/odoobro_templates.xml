@@ -4,14 +4,14 @@
         inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
             <link rel="icon" type="image/png"
-                href="/odoobro_website_module/static/src/img/favicon.ico" />
+                href="/odoobro_website_module/static/src/img/logo_image.png" />
         </xpath>
     </template>
 
     <template id="odoobro_website_module_web_layout" name="cloud_layout"
         inherit_id="web.layout">
         <xpath expr="//head//link" position="after">
-            <link rel="shortcut icon" href="/odoobro_website_module/static/src/img/favicon.ico"
+            <link rel="shortcut icon" href="/odoobro_website_module/static/src/img/logo_image.png"
                 type="image/x-icon" />
         </xpath>
     </template>
@@ -20,7 +20,7 @@
         customize_show="True">
         <xpath expr="//a[@class='navbar-brand logo']" position="replace">
             <a href="/" class="navbar-brand logo">
-                <img src="/odoobro_website_module/static/src/img/odoobro_logo.png" />
+                <img src="/odoobro_website_module/static/src/img/logo_image.png" />
             </a>
         </xpath>
     </template>

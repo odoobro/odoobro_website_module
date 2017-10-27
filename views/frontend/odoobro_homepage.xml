@@ -8,12 +8,12 @@
                 <section id="home">
                     <div class="container odoobro-padding">
                         <div class="row">
-                            <div class="col-md-12 col-sm-12">
+                            <div class="col-md-12 col-sm-12" id="nav-buttons">
                                 <h3>ODOO DEVELOPMENT</h3>
                                 <h1>ODOOBRO TEAM</h1>
                                 <hr />
                                     <a href="#work"
-                                        class="smoothScroll btn btn-danger">What we do</a>
+                                        class="btn btn-danger">What we do</a>
                                     <a href="#contact"
                                         class="smoothScroll btn btn-default">Talk to us</a>
                             </div>
@@ -25,7 +25,7 @@
                 <section id="work">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-12 col-sm-12">
+                            <div class="col-md-12 col-sm-12" id="what-we-do">
                                 <div class="section-title">
                                     <strong>01</strong>
                                     <h1 class="heading bold">WHAT WE DO</h1>
@@ -35,245 +35,108 @@
                             <div
                                 class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
                                 data-wow-delay="0.6s">
-                                <i class="icon-cloud medium-icon"></i>
-                                <h3>SMS MARKETING</h3>
+                                <i class="icon-desktop medium-icon"></i>
+                                <h3>Point of Sale</h3>
                                 <hr />
-                                    <p>Some description</p>
+                                    <p>
+                                        Integrated inventory management, operates managing 
+                                        processes of retail supply chain and supports different divices (iPads,
+                                        Android tablets or Laptops).
+                                    </p>
                             </div>
                             <div
                                 class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
                                 data-wow-delay="0.9s">
-                                <i class="icon-mobile medium-icon"></i>
-                                <h3>POS</h3>
+                                <i class="icon-briefcase medium-icon"></i>
+                                <h3>Sales</h3>
                                 <hr />
                                     <p>
-                                        Some description
+                                        Sell more with clean quotations
                                     </p>
                             </div>
                             <div
                                 class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
                                 data-wow-delay="1s">
-                                <i class="icon-laptop medium-icon"></i>
-                                <h3>ECOMMERCE</h3>
-                                <hr />
-                                    <p>Some description</p>
-                            </div>
-                            <div
-                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
-                                data-wow-delay="1s">
-                                <i class="icon-compass medium-icon"></i>
-                                <h3>Organization Chart</h3>
-                                <hr />
-                                    <p>Some description</p>
-                            </div>
-                            <div
-                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
-                                data-wow-delay="1s">
-                                <i class="icon-chat medium-icon"></i>
-                                <h3>Restrict Export Data</h3>
+                                <i class="icon-basket medium-icon"></i>
+                                <h3>Purchase</h3>
                                 <hr />
                                     <p>
-                                        Some description
+                                        Integrated inventory management, operates managing 
+                                        processes of retail supply chain and supports different divices (iPads,
+                                        Android tablets or Laptops).
                                     </p>
                             </div>
                             <div
                                 class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
                                 data-wow-delay="1s">
-                                <i class="icon-browser medium-icon"></i>
-                                <h3>Loyalty</h3>
+                                <i class="icon-wallet medium-icon"></i>
+                                <h3>Invoices</h3>
                                 <hr />
-                                    <p>Some description</p>
+                                    <p>
+                                        Integrated inventory management, operates managing 
+                                        processes of retail supply chain and supports different divices (iPads,
+                                        Android tablets or Laptops).
+                                    </p>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
+                                data-wow-delay="1s">
+                                <i class="icon-bargraph medium-icon"></i>
+                                <h3>Inventory Management</h3>
+                                <hr />
+                                    <p>
+                                        Integrated inventory management, operates managing 
+                                        processes of retail supply chain and supports different divices (iPads,
+                                        Android tablets or Laptops).
+                                    </p>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
+                                data-wow-delay="1s">
+                                <i class="icon-happy medium-icon"></i>
+                                <h3>CRM</h3>
+                                <hr />
+                                    <p>
+                                        Integrated inventory management, operates managing 
+                                        processes of retail supply chain and supports different divices (iPads,
+                                        Android tablets or Laptops).
+                                    </p>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <!-- team section -->
+                <!-- module section -->
                 <section id="team">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
                                 <div class="section-title">
                                     <strong>02</strong>
-                                    <h1 class="heading bold">TALENTED TEAM</h1>
+                                    <h1 class="heading bold">WHAT WE DO</h1>
                                     <hr />
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 wow fadeIn"
-                                data-wow-delay="0.9s">
-                                <div class="team-wrapper">
-                                    <img src="/odoobro_website_module/static/src/img/team1.jpg"
-                                        class="img-responsive" alt="team img" />
-                                        <div class="team-des">
-                                            <h4>Cindy - Girl Friend's Memeber 1</h4>
-                                            <h3>Developer</h3>
-                                            <hr />
-                                                <ul class="social-icon">
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-facebook wow fadeIn"
-                                                            data-wow-delay="0.3s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-twitter wow fadeIn"
-                                                            data-wow-delay="0.6s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-dribbble wow fadeIn"
-                                                            data-wow-delay="0.9s"></a>
-                                                    </li>
-                                                </ul>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 wow fadeIn"
-                                data-wow-delay="1.3s">
-                                <div class="team-wrapper">
-                                    <img src="/odoobro_website_module/static/src/img/team2.jpg"
-                                        class="img-responsive" alt="team img" />
-                                        <div class="team-des">
-                                            <h4>Mary - Girl Friend's Memeber 2</h4>
-                                            <h3>Developer</h3>
-                                            <hr />
-                                                <ul class="social-icon">
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-facebook wow fadeIn"
-                                                            data-wow-delay="0.3s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-twitter wow fadeIn"
-                                                            data-wow-delay="0.6s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-dribbble wow fadeIn"
-                                                            data-wow-delay="0.9s"></a>
-                                                    </li>
-                                                </ul>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 wow fadeIn"
-                                data-wow-delay="1.6s">
-                                <div class="team-wrapper">
-                                    <img src="/odoobro_website_module/static/src/img/team3.jpg"
-                                        class="img-responsive" alt="team img" />
-                                        <div class="team-des">
-                                            <h4>Linda - Girl Friend's Memeber 3</h4>
-                                            <h3>Developer</h3>
-                                            <hr />
-                                                <ul class="social-icon">
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-facebook wow fadeIn"
-                                                            data-wow-delay="0.3s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-twitter wow fadeIn"
-                                                            data-wow-delay="0.6s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-dribbble wow fadeIn"
-                                                            data-wow-delay="0.9s"></a>
-                                                    </li>
-                                                </ul>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 wow fadeIn"
-                                data-wow-delay="1.6s">
-                                <div class="team-wrapper">
-                                    <img src="/odoobro_website_module/static/src/img/team4.jpg"
-                                        class="img-responsive" alt="team img" />
-                                        <div class="team-des">
-                                            <h4>Sandar - Girl Friend's Memeber 4</h4>
-                                            <h3>Developer</h3>
-                                            <hr />
-                                                <ul class="social-icon">
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-facebook wow fadeIn"
-                                                            data-wow-delay="0.3s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-twitter wow fadeIn"
-                                                            data-wow-delay="0.6s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-dribbble wow fadeIn"
-                                                            data-wow-delay="0.9s"></a>
-                                                    </li>
-                                                </ul>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 wow fadeIn"
-                                data-wow-delay="1.6s">
-                                <div class="team-wrapper">
-                                    <img src="/odoobro_website_module/static/src/img/team5.jpg"
-                                        class="img-responsive" alt="team img" />
-                                        <div class="team-des">
-                                            <h4>Lisa - Girl Friend's Memeber 5</h4>
-                                            <h3>Developer</h3>
-                                            <hr />
-                                                <ul class="social-icon">
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-facebook wow fadeIn"
-                                                            data-wow-delay="0.3s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-twitter wow fadeIn"
-                                                            data-wow-delay="0.6s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-dribbble wow fadeIn"
-                                                            data-wow-delay="0.9s"></a>
-                                                    </li>
-                                                </ul>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 wow fadeIn"
-                                data-wow-delay="1.6s">
-                                <div class="team-wrapper">
-                                    <img src="/odoobro_website_module/static/src/img/team6.jpg"
-                                        class="img-responsive" alt="team img" />
-                                        <div class="team-des">
-                                            <h4>Winny - Girl Friend's Memeber 6</h4>
-                                            <h3>Developer</h3>
-                                            <hr />
-                                                <ul class="social-icon">
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-facebook wow fadeIn"
-                                                            data-wow-delay="0.3s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-twitter wow fadeIn"
-                                                            data-wow-delay="0.6s"></a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#"
-                                                            class="fa fa-dribbble wow fadeIn"
-                                                            data-wow-delay="0.9s"></a>
-                                                    </li>
-                                                </ul>
-                                        </div>
-                                </div>
-                            </div>
+                            <t t-if="modules">
+                                <t t-foreach="modules" t-as="module">
+                                    <div
+                                        class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp"
+                                        data-wow-delay="0.6s">
+                                        <figure class="icon-img">
+                                            <div t-field="module.icon"
+                                                t-options="{'widget': 'image', 'class': 'img-responsivet' }" />
+                                        </figure>
+                                        <!-- <i class="icon-cloud medium-icon"></i> -->
+                                        <a t-att-href="module.link_odoo_app or '#'">
+                                            <h3 t-esc="module.name or ''"/>
+                                        </a>
+                                        <hr />
+                                        <p t-esc="module.description_website or ''"/>
+                                    </div>
+                                </t>
+                            </t>
                         </div>
+                        <a href="">View More</a>
                     </div>
                 </section>
 
